@@ -1,5 +1,6 @@
-// This return statement should replace the one in the <Card return
-// in the file src\components\product-tile\index.tsx in your SFN respository
+// This ProductTile declaration and following display name assignment should replace the one in the file:
+// src/components/product-tile/index.tsx in your main SFN repository for the <Card element to have the 
+// c_inBasket injected via hook.
 
 const ProductTile = memo(
     forwardRef<HTMLDivElement, ProductTileProps>(
